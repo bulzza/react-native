@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "name": "United States",
+    "country": "USA",
+    "description": "A country in North America known for its cultural and technological influence.",
+    "population": 331002651
+  },
+  {
+    "id": 2,
+    "name": "Germany",
+    "country": "DE",
+    "description": "A European country known for its engineering, automotive industry, and rich history.",
+    "population": 83149300
+  },
+  {
+    "id": 3,
+    "name": "Japan",
+    "country": "JP",
+    "description": "An island nation in East Asia, famous for technology, anime, and traditional culture.",
+    "population": 126476461
+  },
+  {
+    "id": 4,
+    "name": "Brazil",
+    "country": "BR",
+    "description": "The largest country in South America, known for the Amazon Rainforest and football.",
+    "population": 212559417
+  },
+  {
+    "id": 5,
+    "name": "India",
+    "country": "IN",
+    "description": "A South Asian country known for its diverse culture, history, and IT industry.",
+    "population": 1380004385
+  },
+  {
+    "id": 6,
+    "name": "United Kingdom",
+    "country": "UK",
+    "description": "A European nation with a rich history, monarchy, and global influence.",
+    "population": 67886011
+  },
+  {
+    "id": 7,
+    "name": "France",
+    "country": "FR",
+    "description": "A European country famous for its art, wine, and cuisine.",
+    "population": 65273511
+  },
+  {
+    "id": 8,
+    "name": "China",
+    "country": "CN",
+    "description": "The most populous country in the world, known for its economy and ancient culture.",
+    "population": 1444216107
+  },
+  {
+    "id": 9,
+    "name": "Australia",
+    "country": "AU",
+    "description": "A continent and country known for its wildlife, beaches, and outback.",
+    "population": 25687041
+  },
+  {
+    "id": 10,
+    "name": "Canada",
+    "country": "CA",
+    "description": "A North American country known for its natural beauty and multiculturalism.",
+    "population": 37742154
+  },
+  {
+    "id": 11,
+    "name": "Russia",
+    "country": "RU",
+    "description": "The largest country in the world, spanning Europe and Asia.",
+    "population": 145912025
+  },
+  {
+    "id": 12,
+    "name": "Italy",
+    "country": "IT",
+    "description": "A European country known for its history, cuisine, and art.",
+    "population": 60244639
+  },
+  {
+    "id": 13,
+    "name": "Mexico",
+    "country": "MX",
+    "description": "A North American country famous for its culture, food, and ancient ruins.",
+    "population": 128932753
+  },
+  {
+    "id": 14,
+    "name": "South Africa",
+    "country": "ZA",
+    "description": "A country known for its diverse cultures, wildlife, and natural beauty.",
+    "population": 59308690
+  },
+  {
+    "id": 15,
+    "name": "Argentina",
+    "country": "AR",
+    "description": "A South American country known for tango, football, and Patagonia.",
+    "population": 45195777
+  }
+]

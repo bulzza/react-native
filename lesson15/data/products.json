@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "name": "Nike Hyperchase",
+    "category": "Men's Basketball Shoes",
+    "price": "$125",
+    "stock": "Yes",
+    "image": "../assets/nike_shoe.png",
+    "logo": "../assets/nike_logo.png",
+    "description": "High-performance basketball shoes with lightweight support and great traction.",
+    "colors": ["#003b75", "#67c04e", "#3c4b66"]
+  }
+]
