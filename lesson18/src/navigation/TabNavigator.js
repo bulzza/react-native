@@ -4,6 +4,8 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Home from '../screens/Home'; // Adjust according to your file path
 import Profile from '../screens/Profile'; // Adjust according to your file path
 import About from '../screens/About'; // Adjust according to your file path
+import Contact from '../screens/Contact'; // Adjust according to your file path
+import Settings from '../screens/Settings'; // Adjust according to your file path
 import { Ionicons, MaterialCommunityIcons } from '@expo/vector-icons'; // Optional: for custom icons
 
 const Tab = createBottomTabNavigator();
@@ -21,7 +23,7 @@ function BottomTabNavigator() {
           backgroundColor: '#2A2A2A',
           borderTopWidth: 0,
         },
-        tabBarActiveTintColor: '#FFFFFF',
+        tabBarActiveTintColor: '#007BFF',
         tabBarInactiveTintColor: '#A1A1A1',
         tabBarLabelStyle: {
           fontSize: 16,
@@ -56,6 +58,27 @@ function BottomTabNavigator() {
           ),
         }}
       />
+
+    <Tab.Screen
+            name="Settings"
+            component={Settings}
+            options={{
+              tabBarIcon: ({ color, size }) => (
+                <MaterialCommunityIcons name="cog" color={color} size={size} />
+              ),
+            }}
+          />
+
+    <Tab.Screen
+            name="Contact"
+            component={Contact}
+            options={{
+              tabBarIcon: ({ color, size }) => (
+                <MaterialCommunityIcons name="contacts" color={color} size={size} />
+              ),
+            }}
+          />
+          
     </Tab.Navigator>
   );
 }

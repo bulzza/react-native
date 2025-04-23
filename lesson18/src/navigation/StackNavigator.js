@@ -3,6 +3,8 @@ import { createStackNavigator } from "@react-navigation/stack";
 import Home from "../screens/Home";
 import About from "../screens/About";
 import Profile from "../screens/Profile";
+import Contact from "../screens/Contact";
+import Settings from "../screens/Settings";
 
 const Stack=createStackNavigator();
 
@@ -35,6 +37,24 @@ const ProfileStackNavigator=({navigation})=>{
         </Stack.Navigator>
     )
 }
-export {MainStackNavigator, AboutStackNavigator};
+
+const ContactStackNavigator=({navigation})=>{
+    return(
+        <Stack.Navigator screenOptions={screenOptionStyle}>
+            <Stack.Screen name="Contact" component={Contact} />
+        </Stack.Navigator>
+    )
+}
+
+const SettingsStackNavigator=({navigation})=>{
+    return(
+        <Stack.Navigator screenOptions={screenOptionStyle}>
+            <Stack.Screen name="Settings" component={Settings} />
+        </Stack.Navigator>
+    )
+}
+
+
+export {MainStackNavigator, AboutStackNavigator, ProfileStackNavigator, ContactStackNavigator,  SettingsStackNavigator};
 
 
