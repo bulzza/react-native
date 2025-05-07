@@ -4,6 +4,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Home from '../screens/Home'; // Adjust according to your file path
 import About from '../screens/About'; // Adjust according to your file path
 import { Ionicons, MaterialCommunityIcons } from '@expo/vector-icons'; // Optional: for custom icons
+import Contact from '../screens/Contact'; // Adjust according to your file path
 
 const Tab = createBottomTabNavigator();
 
@@ -47,6 +48,16 @@ function BottomTabNavigator() {
         options={{
           tabBarIcon: ({ color, size }) => (
             <MaterialCommunityIcons name="information" color={color} size={size} />
+          ),
+        }}
+      />
+
+      <Tab.Screen
+        name="Contact"
+        component={Contact}
+        options={{
+          tabBarIcon: ({ color, size }) => (
+            <MaterialCommunityIcons name="account" color={color} size={size} />
           ),
         }}
       />
