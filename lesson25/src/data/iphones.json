@@ -1,0 +1,28 @@
+[
+    {
+      "id": 1,
+      "name": "iPhone X",
+      "category": "iPhone",
+      "price": 750,
+      "image": "https://prognamik.in/wp-content/uploads/2021/04/mobile_app_prognamik-1-1024x574.png",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, quis nostrud exercitation."
+    },
+    {
+      "id": 2,
+      "name": "iPhone 12 Pro",
+      "category": "iPhone",
+      "price": 999,
+      "image": "https://www.push.co.uk/uploads/8/0/8/8/80880976/phone_orig.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, quis nostrud exercitation."
+    },
+    {
+      "id": 3,
+      "name": "iPhone 12 Pro",
+      "category": "iPhone",
+      "price": 999,
+      "image": "https://blogassets.airtel.in/wp-content/uploads/2022/11/1-2-445x265.jpg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, quis nostrud exercitation."
+    }
+
+  ]
+  
